@@ -1,0 +1,73 @@
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# .build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However, you should judge for yourself
+# whether this is the right approach for your project. For more information about the pros and cons of doing this,
+# see https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+#
+# Carthage/Build
+
+# Git
+#
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.settings
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
