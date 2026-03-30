@@ -22,7 +22,7 @@
 
 在 Xcode 中：
 1. 选择 File > Add Package Dependencies...
-2. 输入 URL：`https://github.com/yourusername/tibetan-calendar-data.git`
+2. 输入 URL：`https://github.com/LureCoder/tibetan-calendar-data.git`
 3. 选择版本并添加到你的项目
 
 ### 手动安装
@@ -148,7 +148,11 @@ provider.clearCache()
 
 ## 数据来源
 
-数据来源于 `zangli-converter` 项目生成的 JSON 文件，包含 1952-2050 年的完整藏历信息。
+数据来源于以下项目：
+- 主要数据：[stonelf/zangli](https://github.com/stonelf/zangli) - 公历转换藏历项目
+- 处理工具：`zangli-converter` 项目（用于生成 JSON 格式数据）
+
+数据包含 1952-2050 年的完整藏历信息。
 
 ## 测试
 
